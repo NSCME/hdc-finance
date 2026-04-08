@@ -1,0 +1,305 @@
+{
+  "run_id": "20260402_155902",
+  "backtest_start": "2018-01-01",
+  "backtest_end": "2026-04-02",
+  "initial_capital": 100000.0,
+  "universe": [
+    "BTC-USD",
+    "ETH-USD",
+    "BNB-USD",
+    "ADA-USD"
+  ],
+  "institutional": {
+    "max_drawdown_stop": 0.2,
+    "reentry_threshold": 0.05,
+    "txn_cost_bps": 10.0,
+    "impact_bps_per_100k": 1.0,
+    "total_txn_costs": 554054168.32,
+    "circuit_breaker_days": 702
+  },
+  "survivorship_stress": {
+    "max_single_asset_exposure_pct": 35.0,
+    "asset": "BTC-USD",
+    "date": "2021-04-09",
+    "worst_case_overnight_loss_pct": 35.0
+  },
+  "CryptoHyperMind": {
+    "total_return_pct": 1612249.44,
+    "ann_sharpe": 2.2995,
+    "sortino": 2.9738,
+    "omega": 1.4787,
+    "max_drawdown_pct": -36.54,
+    "calmar_ratio": 6.8637,
+    "var_95_pct": 4.6969,
+    "cvar_95_pct": 7.3448,
+    "final_nav": 1612349444.93,
+    "sub_period": [
+      {
+        "year": 2018,
+        "return": 14.1,
+        "sharpe": 0.74,
+        "max_dd": -28.4
+      },
+      {
+        "year": 2019,
+        "return": 333.3,
+        "sharpe": 2.68,
+        "max_dd": -24.7
+      },
+      {
+        "year": 2020,
+        "return": 1103.7,
+        "sharpe": 3.87,
+        "max_dd": -24.8
+      },
+      {
+        "year": 2021,
+        "return": 2226.4,
+        "sharpe": 3.74,
+        "max_dd": -36.5
+      },
+      {
+        "year": 2022,
+        "return": 13.3,
+        "sharpe": 0.51,
+        "max_dd": -28.9
+      },
+      {
+        "year": 2023,
+        "return": 130.8,
+        "sharpe": 2.16,
+        "max_dd": -24.2
+      },
+      {
+        "year": 2024,
+        "return": 152.0,
+        "sharpe": 2.16,
+        "max_dd": -22.4
+      },
+      {
+        "year": 2025,
+        "return": 68.2,
+        "sharpe": 1.4,
+        "max_dd": -23.8
+      },
+      {
+        "year": 2026,
+        "return": -1.9,
+        "sharpe": -0.01,
+        "max_dd": -12.8
+      }
+    ],
+    "halving_cycles": [
+      {
+        "cycle": "Pre-Halving #3 (2018 bear)",
+        "start": "2018-07-09",
+        "end": "2020-05-11",
+        "return": 1204.9,
+        "sharpe": 2.36,
+        "max_dd": -28.4
+      },
+      {
+        "cycle": "Halving #3 \u2192 Halving #4",
+        "start": "2020-05-11",
+        "end": "2024-04-19",
+        "return": 41314.4,
+        "sharpe": 2.59,
+        "max_dd": -36.5
+      },
+      {
+        "cycle": "Halving #4 \u2192 Present",
+        "start": "2024-04-19",
+        "end": "2026-04-01",
+        "return": 205.3,
+        "sharpe": 1.48,
+        "max_dd": -23.8
+      }
+    ]
+  },
+  "EWIndex": {
+    "total_return_pct": 1300.1,
+    "ann_sharpe": 0.8445,
+    "sortino": 1.1151,
+    "omega": 1.1364,
+    "max_drawdown_pct": -76.23,
+    "calmar_ratio": 0.5388,
+    "var_95_pct": 5.694,
+    "cvar_95_pct": 8.8094,
+    "final_nav": 1400097.59,
+    "sub_period": [
+      {
+        "year": 2018,
+        "return": -60.7,
+        "sharpe": -1.86,
+        "max_dd": -74.4
+      },
+      {
+        "year": 2019,
+        "return": 41.9,
+        "sharpe": 0.89,
+        "max_dd": -61.0
+      },
+      {
+        "year": 2020,
+        "return": 361.6,
+        "sharpe": 2.28,
+        "max_dd": -60.8
+      },
+      {
+        "year": 2021,
+        "return": 554.0,
+        "sharpe": 2.42,
+        "max_dd": -50.6
+      },
+      {
+        "year": 2022,
+        "return": -67.5,
+        "sharpe": -1.13,
+        "max_dd": -67.9
+      },
+      {
+        "year": 2023,
+        "return": 102.9,
+        "sharpe": 1.84,
+        "max_dd": -33.1
+      },
+      {
+        "year": 2024,
+        "return": 84.0,
+        "sharpe": 1.43,
+        "max_dd": -38.8
+      },
+      {
+        "year": 2025,
+        "return": -16.6,
+        "sharpe": 0.06,
+        "max_dd": -41.5
+      },
+      {
+        "year": 2026,
+        "return": -27.5,
+        "sharpe": -1.49,
+        "max_dd": -39.6
+      }
+    ],
+    "halving_cycles": [
+      {
+        "cycle": "Pre-Halving #3 (2018 bear)",
+        "start": "2018-07-09",
+        "end": "2020-05-11",
+        "return": -25.0,
+        "sharpe": 0.25,
+        "max_dd": -74.4
+      },
+      {
+        "cycle": "Halving #3 \u2192 Halving #4",
+        "start": "2020-05-11",
+        "end": "2024-04-19",
+        "return": 1989.5,
+        "sharpe": 1.43,
+        "max_dd": -76.2
+      },
+      {
+        "cycle": "Halving #4 \u2192 Present",
+        "start": "2024-04-19",
+        "end": "2026-04-01",
+        "return": -8.6,
+        "sharpe": 0.23,
+        "max_dd": -58.8
+      }
+    ]
+  },
+  "BuyHoldBTC": {
+    "total_return_pct": 905.02,
+    "ann_sharpe": 0.7956,
+    "sortino": 1.0768,
+    "omega": 1.1335,
+    "max_drawdown_pct": -76.63,
+    "calmar_ratio": 0.4545,
+    "var_95_pct": 4.9183,
+    "cvar_95_pct": 7.3951,
+    "final_nav": 1005015.68,
+    "sub_period": [
+      {
+        "year": 2018,
+        "return": -44.5,
+        "sharpe": -1.53,
+        "max_dd": -61.6
+      },
+      {
+        "year": 2019,
+        "return": 87.2,
+        "sharpe": 1.3,
+        "max_dd": -49.0
+      },
+      {
+        "year": 2020,
+        "return": 302.8,
+        "sharpe": 2.32,
+        "max_dd": -51.9
+      },
+      {
+        "year": 2021,
+        "return": 57.6,
+        "sharpe": 0.98,
+        "max_dd": -53.1
+      },
+      {
+        "year": 2022,
+        "return": -65.3,
+        "sharpe": -1.3,
+        "max_dd": -66.9
+      },
+      {
+        "year": 2023,
+        "return": 154.2,
+        "sharpe": 2.36,
+        "max_dd": -20.1
+      },
+      {
+        "year": 2024,
+        "return": 111.5,
+        "sharpe": 1.74,
+        "max_dd": -26.2
+      },
+      {
+        "year": 2025,
+        "return": -7.3,
+        "sharpe": 0.05,
+        "max_dd": -32.1
+      },
+      {
+        "year": 2026,
+        "return": -23.3,
+        "sharpe": -1.4,
+        "max_dd": -35.3
+      }
+    ],
+    "halving_cycles": [
+      {
+        "cycle": "Pre-Halving #3 (2018 bear)",
+        "start": "2018-07-09",
+        "end": "2020-05-11",
+        "return": 27.6,
+        "sharpe": 0.56,
+        "max_dd": -61.8
+      },
+      {
+        "cycle": "Halving #3 \u2192 Halving #4",
+        "start": "2020-05-11",
+        "end": "2024-04-19",
+        "return": 642.2,
+        "sharpe": 1.12,
+        "max_dd": -76.6
+      },
+      {
+        "cycle": "Halving #4 \u2192 Present",
+        "start": "2024-04-19",
+        "end": "2026-04-01",
+        "return": 6.6,
+        "sharpe": 0.31,
+        "max_dd": -49.7
+      }
+    ]
+  }
+}
